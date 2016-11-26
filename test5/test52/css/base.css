@@ -1,0 +1,56 @@
+body {
+    background: #D4F5CA;
+}
+.wrap {
+    width: 270px;
+    margin: 40px auto;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #F9F9F9;
+}
+#mess {
+    width: 96%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding-left: 2%;
+}
+.wrap ul {
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.wrap ul li {
+    list-style: none;
+    width: 21%;
+    float: left;
+    margin-right: 5%;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #ECECEC;
+}
+.wrap ul li:hover {
+    background: #D6D5D5;
+}
+.wrap ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.wrap ul li.dot {
+    width: 74%;
+    float: left;
+    margin-right: 0%;
+}
+.wrap ul li.equal {
+    position: absolute;
+    right: -10px;
+    bottom: 0px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 20px;
+}

@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>百度</title>
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/base.css"/>
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<div class="hd-top-bg"></div>
+			<div class="ht-l-menus">
+				<!-- weather -->
+				<div class="hd-weather">
+				</div>
+				<!-- 宝箱等 -->
+				<div class="hd-l-icons">
+					<a href="#" class="hd-treasure">宝箱</a>
+					<a href="#" class="hd-skin">换肤</a>
+					<a href="#" class="hd-msg">消息</a>
+					<!-- 消息弹出框 -->
+					<div class="hd-mod-msg">
+						<span class="msg-arr"></span>
+						<div class="mod-msg-inner">
+							<div class="nomsg">
+								<p class="no-msg-tip">您目前没有新消息</p>
+								<div class="no-msg-btns">
+									<div class="msg-clear-btn msg-btn">
+										<span class="msg-icon"></span>
+										<span class="title">清空消息</span>
+									</div>
+									<div class="msg-set-btn msg-btn">
+										<a href="#" class="title">消息设置</a>
+										<span class="msg-icon"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ht-r-menus">
+				<a href="#" class="hr-nav">糯米</a>
+				<a href="#" class="hr-nav">新闻</a>
+				<a href="#" class="hr-nav">hao123</a>
+				<a href="#" class="hr-nav">地图</a>
+				<a href="#" class="hr-nav">视频</a>
+				<a href="#" class="hr-nav">贴吧</a>
+				<a href="#" class="ht-user">
+					<span class="user-name">我的昵称</span>
+				</a>
+				<a href="#" class="hr-set">设置</a>
+				<a href="#" class="hr-pro-bri">更多产品</a>
+				<!-- 详情 -->
+				<div class="hr-user-menu hr-menu">
+					<span class="msg-arr"></span>
+					<div>
+						<a href="#">我的VIP</a>
+						<a href="#">个人中心</a>
+						<a href="#">帐号设置</a>
+						<a href="#">意见反馈</a>
+						<a href="#">退出</a>
+					</div>
+				</div>
+				<div class="hr-set-menu hr-menu">
+					<span class="msg-arr"></span>
+					<div>
+						<a href="#">搜索设置</a>
+						<a href="#">高级搜索</a>
+						<a href="#">搜索历史</a>
+						<a href="#">意见反馈</a>
+					</div>
+				</div>
+				<!-- 更多产品 -->
+				<div class="r-pro hide">
+					<div class="r-pro-link">
+						<div class="r-pro-tit">
+							更多产品
+						</div>
+						<div class="r-pro-inner">
+							<a href="#">
+								<img src="img/music.png" alt="">
+								音乐
+							</a>
+							<a href="#">
+								<img src="img/image.png" alt="">
+								图片
+							</a>
+							<a href="#">
+								<img src="img/zhidao.png" alt="">
+								知道
+							</a>
+							<a href="#">
+								<img src="img/wenku.png" alt="">
+								文库
+							</a>
+							<a href="#">
+								<img src="img/bang.png" alt="">
+								风云榜
+							</a>
+							<a href="#">
+								<img src="img/tuiguang.png" alt="">
+								百度推广
+							</a>
+							<div class="r-pro-more">
+								<a href="#">全部产品>></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--fixed top -->
+			<div class="fixed-top">
+				<div class="ftop-inner">
+					<a href="#" class="ftop-logo">
+						<img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png" alt="">
+					</a>
+					<div class="fm">
+						<span class="fm-ipt">
+							<input type="text" class="fm-meg" autofocus/>
+						</span>
+						<span class="fm-btn">
+							<input type="submit" class="fm-baidu" value="百度一下"/>
+						</span>
+					</div>
+				</div>
+			</div>
+			<!-- 换肤 -->
+		</header>
+		<!-- 百度一下 -->
+		<div class="con-top">
+			<div class="ctop-inner">
+				<div class="ct-form">
+					<div class="ct-img">
+						<img src="img/logo_white_fe6da1ec.png" alt="">
+					</div>
+					<div class="fm">
+						<span class="fm-ipt">
+							<input type="text" class="fm-meg" autofocus/>
+						</span>
+						<span class="fm-btn">
+							<input type="submit" class="fm-baidu" value="百度一下"/>
+						</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<!-- 各种信息导航 -->
+		<div class="con-wrap">
+			<div class="con-main">
+				<div class="c-main">
+					<!-- c-menu -->
+					<div class="c-menu-wrap" >
+						<div class="c-menu-gurd c-opacity">
+							<div class="s-menu-mine c-opa-bg" >
+								<span class="mine-icon dl "></span>
+								<a class="mine-text dl" href="#">我的关注</a>
+							</div>
+							<div class="c-menu-outer">
+								<div class="c-out-inner">
+									<span href="#" class="c-menu-item c-opa-bg">导航</span>
+									<span href="#" class="c-menu-item on c-opa-bg">推荐</span>
+									<span href="#" class="c-menu-item c-opa-bg">视频</span>
+								</div>
+								<div class="c-out-space c-opa-bg"></div>
+							</div>
+							<div class="c-menu-set c-opa-bg">
+								<span class="set-icon"></span>
+							</div>
+						</div>
+					</div>
+					<!-- c-con -->
+					<div class="c-content c-opa-bg">
+						<div class="c-con-inner">
+							<!-- 我的关注 -->
+							<div class="c-news">
+								<div class="c-news-fir">
+									<!--推荐文字 -->
+									<div class="news-tips">
+										<div class="left-line dl-md"></div>
+										<div class="tips-con dl-md">
+											<div class="tips-icon"></div>
+											<span>我的关注</span>
+										</div>
+										<div class="right-line dl-md"></div>
+									</div>
+									<!-- 推荐内容 -->
+									<div class="news-recommen">
+										<div class="n-recom-list">
+											<div class="news-item news-item-tpl2">
+												<div class="n-text-con">
+													<h2>
+														<span class="nhot-icon"></span>
+														<a href="#">
+															 新春内地访港旅行团跌七成 系10多年来最大跌幅
+														</a> 
+													</h2>
+												</div>
+												<div class="n-recom-pic">
+													<ul class="n-recom-imgs">
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1067927913,1935884051&fm=80" alt="">
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="from">
+													<span class="src-net">
+														<a href="#">搜狐新闻</a>
+													</span>
+													<span class="src-time">01-25 17:28</span>
+												</div>
+												<div class="del"></div>
+											</div>
+											<div class="news-item news-item-tpl1 first">
+												<h2>
+													<span class="nhot-icon"></span>
+													<a href="#">
+														 较强冷空气将影响中国 中东部将现大范围雨雪
+													</a> 
+												</h2>
+												<div class="n-recom-pic">
+													<ul class="n-recom-imgs">
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=1438275056,2365229601&fm=80" alt="">
+															</a>
+														</li>
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1554930694,3081007756&fm=80" alt="">
+															</a>
+														</li>
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1554930694,3081007756&fm=80" alt="">
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="from">
+													<span class="src-net">
+														<a href="#">搜狐新闻</a>
+													</span>
+													<span class="src-time">01-25 17:28</span>
+												</div>
+												<div class="del"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 导航 -->
+							<div class="c-news">
+								<div class="c-news-fir">
+									<!--推荐文字 -->
+									<div class="news-tips">
+										<div class="left-line dl-md"></div>
+										<div class="tips-con dl-md">
+											<div class="tips-icon"></div>
+											<span>导航</span>
+										</div>
+										<div class="right-line dl-md"></div>
+									</div>
+									<!-- 推荐内容 -->
+									<div class="news-recommen">
+										<div class="n-recom-list">
+											<div class="news-item news-item-tpl2">
+												<div class="n-text-con">
+													<h2>
+														<span class="nhot-icon"></span>
+														<a href="#">
+															 新春内地访港旅行团跌七成 系10多年来最大跌幅
+														</a> 
+													</h2>
+												</div>
+												<div class="n-recom-pic">
+													<ul class="n-recom-imgs">
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1067927913,1935884051&fm=80" alt="">
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="from">
+													<span class="src-net">
+														<a href="#">搜狐新闻</a>
+													</span>
+													<span class="src-time">01-25 17:28</span>
+												</div>
+												<div class="del"></div>
+											</div>
+											<div class="news-item news-item-tpl1 first">
+												<h2>
+													<span class="nhot-icon"></span>
+													<a href="#">
+														 较强冷空气将影响中国 中东部将现大范围雨雪
+													</a> 
+												</h2>
+												<div class="n-recom-pic">
+													<ul class="n-recom-imgs">
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=1438275056,2365229601&fm=80" alt="">
+															</a>
+														</li>
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1554930694,3081007756&fm=80" alt="">
+															</a>
+														</li>
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1554930694,3081007756&fm=80" alt="">
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="from">
+													<span class="src-net">
+														<a href="#">搜狐新闻</a>
+													</span>
+													<span class="src-time">01-25 17:28</span>
+												</div>
+												<div class="del"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 推荐 -->
+							<div class="c-news" style="display:block;">
+								<div class="c-news-fir">
+									<!-- 右边的实时热点 -->
+									<div class="news-hot">
+										<div class="hot-tit">
+											<div class="hot-txt">
+												<a href="#">实时热点</a>
+											</div>
+											<a href="#" class="hot-refresh">
+												<span class="refresh-icon dl"></span>
+												<span class="refresh-txt">换一换</span>
+											</a>
+										</div>
+										<ul class="hot-menu">
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														王宽当选感动中国
+													</a>
+													<span class="new-identity"></span>
+													<!-- hover 详情 -->
+													<div class="hot-details">
+														<div class="hdetail">
+															<div class="hot-words-item">
+																<span class="dot"></span>
+																<a href="#" class="word-tit">
+																	<em>王宽</em>
+																	“卖唱”养育6名孤儿
+																	<em>当选感动中国</em>人物
+																</a>
+															</div>
+															<div class="hot-words-summary">
+																  2月14日晚,亿万观众在电视机前观看中央电视台“<em>感动中国</em>”2015年度人物颁奖典礼,分享“国人年度精神盛宴”。由我省推荐的2015“感动中原”年度人物——<em>王宽当选</em>“... 
+															</div>
+															<div class="hot-words-item">
+																<span class="dot"></span>
+																<a href="#" class="word-tit">
+																	<em>王宽当选</em>
+																	《
+																	<em>感动中国</em>》2015年度人物 王宽个人资料及简介(组图) 
+																</a>
+															</div>
+															<div class="hot-arrow">
+																<em></em>
+															</div>
+														</div>
+													</div>
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														111岁老寿星
+													</a>
+													<span class="new-identity"></span>
+													<!-- hover 详情 -->
+													<div class="hot-details">
+														<div class="hdetail">
+															<div class="hot-words-item">
+																<span class="dot"></span>
+																<a href="#" class="word-tit">
+																	<em>王宽</em>
+																	“卖唱”养育6名孤儿
+																	<em>当选感动中国</em>人物
+																</a>
+															</div>
+															<div class="hot-words-summary">
+																  2月14日晚,亿万观众在电视机前观看中央电视台“<em>感动中国</em>”2015年度人物颁奖典礼,分享“国人年度精神盛宴”。由我省推荐的2015“感动中原”年度人物——<em>王宽当选</em>“... 
+															</div>
+															<div class="hot-words-item">
+																<span class="dot"></span>
+																<a href="#" class="word-tit">
+																	<em>王宽当选</em>
+																	《
+																	<em>感动中国</em>》2015年度人物 王宽个人资料及简介(组图) 
+																</a>
+															</div>
+															<div class="hot-arrow">
+																<em></em>
+															</div>
+														</div>
+													</div>
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														李嘉诚儿子约美女
+													</a>
+													<span class="new-identity"></span>
+													<!-- hover 详情 -->
+													<div class="hot-details">
+														<div class="hdetail">
+															<div class="hot-words-item">
+																<span class="dot"></span>
+																<a href="#" class="word-tit">
+																	<em>王宽</em>
+																	“卖唱”养育6名孤儿
+																	<em>当选感动中国</em>人物
+																</a>
+															</div>
+															<div class="hot-words-summary">
+																  2月14日晚,亿万观众在电视机前观看中央电视台“<em>感动中国</em>”2015年度人物颁奖典礼,分享“国人年度精神盛宴”。由我省推荐的2015“感动中原”年度人物——<em>王宽当选</em>“... 
+															</div>
+															<div class="hot-words-item">
+																<span class="dot"></span>
+																<a href="#" class="word-tit">
+																	<em>王宽当选</em>
+																	《
+																	<em>感动中国</em>》2015年度人物 王宽个人资料及简介(组图) 
+																</a>
+															</div>
+															<div class="hot-arrow">
+																<em></em>
+															</div>
+														</div>
+													</div>
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														遇见大咖李彦宏
+													</a>
+													<span class="new-identity"></span>
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														复婚遭拒报复前妻
+													</a>
+													<span class="new-identity"></span>
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														417公斤重金枪鱼
+													</a>
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														男子7楼跳下生还
+													</a>
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														417公斤重金枪鱼
+													</a>
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														417公斤重金枪鱼
+													</a>
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														417公斤重金枪鱼
+													</a>
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														417公斤重金枪鱼
+													</a>
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														417公斤重金枪鱼
+													</a>
+													<!-- <span class="new-identity"></span> -->
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														417公斤重金枪鱼
+													</a>
+													<!-- <span class="new-identity"></span> -->
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														417公斤重金枪鱼
+													</a>
+													<!-- <span class="new-identity"></span> -->
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														417公斤重金枪鱼
+													</a>
+													<!-- <span class="new-identity"></span> -->
+												</span>
+											</li>
+											<li>
+												<em class="li-icon"></em>
+												<span class="hot-m-tit">
+													<a href="#">
+														417公斤重金枪鱼
+													</a>
+													<!-- <span class="new-identity"></span> -->
+												</span>
+											</li>
+										</ul>
+									</div>
+									<!--推荐文字 -->
+									<div class="news-tips">
+										<div class="left-line dl-md"></div>
+										<div class="tips-con dl-md">
+											<div class="tips-icon"></div>
+											<span>以下根据您的兴趣推荐</span>
+										</div>
+										<div class="right-line dl-md"></div>
+									</div>
+									<!-- 推荐内容 -->
+									<div class="news-recommen">
+										<div class="n-recom-list">
+											<div class="news-item news-item-tpl1 first">
+												<h2>
+													<span class="nhot-icon"></span>
+													<a href="#">
+														 较强冷空气将影响中国 中东部将现大范围雨雪
+													</a> 
+												</h2>
+												<div class="n-recom-pic">
+													<ul class="n-recom-imgs">
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=1438275056,2365229601&fm=80" alt="">
+															</a>
+														</li>
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1554930694,3081007756&fm=80" alt="">
+															</a>
+														</li>
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1554930694,3081007756&fm=80" alt="">
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="from">
+													<span class="src-net">
+														<a href="#">搜狐新闻</a>
+													</span>
+													<span class="src-time">01-25 17:28</span>
+												</div>
+												<div class="del"></div>
+											</div>
+											<div class="news-item news-item-tpl2">
+												<div class="n-text-con">
+													<h2>
+														<span class="nhot-icon"></span>
+														<a href="#">
+															 新春内地访港旅行团跌七成 系10多年来最大跌幅
+														</a> 
+													</h2>
+												</div>
+												<div class="n-recom-pic">
+													<ul class="n-recom-imgs">
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1067927913,1935884051&fm=80" alt="">
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="from">
+													<span class="src-net">
+														<a href="#">搜狐新闻</a>
+													</span>
+													<span class="src-time">01-25 17:28</span>
+												</div>
+												<div class="del"></div>
+											</div>
+											<div class="news-item news-item-tpl2">
+												<div class="n-text-con">
+													<h2>
+														<span class="nhot-icon"></span>
+														<a href="#">
+															 新春内地访港旅行团跌七成 系10多年来最大跌幅
+														</a> 
+													</h2>
+												</div>
+												<div class="n-recom-pic">
+													<ul class="n-recom-imgs">
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1067927913,1935884051&fm=80" alt="">
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="from">
+													<span class="src-net">
+														<a href="#">搜狐新闻</a>
+													</span>
+													<span class="src-time">01-25 17:28</span>
+												</div>
+												<div class="del"></div>
+											</div>
+											<div class="news-item news-item-tpl1 first">
+												<h2>
+													<span class="nhot-icon"></span>
+													<a href="#">
+														 较强冷空气将影响中国 中东部将现大范围雨雪
+													</a> 
+												</h2>
+												<div class="n-recom-pic">
+													<ul class="n-recom-imgs">
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=1438275056,2365229601&fm=80" alt="">
+															</a>
+														</li>
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1554930694,3081007756&fm=80" alt="">
+															</a>
+														</li>
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1554930694,3081007756&fm=80" alt="">
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="from">
+													<span class="src-net">
+														<a href="#">搜狐新闻</a>
+													</span>
+													<span class="src-time">01-25 17:28</span>
+												</div>
+												<div class="del"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 视频 -->
+							<div class="c-news">
+								<div class="c-news-fir">
+									<!--推荐文字 -->
+									<div class="news-tips">
+										<div class="left-line dl-md"></div>
+										<div class="tips-con dl-md">
+											<div class="tips-icon"></div>
+											<span>视频</span>
+										</div>
+										<div class="right-line dl-md"></div>
+									</div>
+									<!-- 推荐内容 -->
+									<div class="news-recommen">
+										<div class="n-recom-list">
+											<div class="news-item news-item-tpl1 first">
+												<h2>
+													<span class="nhot-icon"></span>
+													<a href="#">
+														 较强冷空气将影响中国 中东部将现大范围雨雪
+													</a> 
+												</h2>
+												<div class="n-recom-pic">
+													<ul class="n-recom-imgs">
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=1438275056,2365229601&fm=80" alt="">
+															</a>
+														</li>
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1554930694,3081007756&fm=80" alt="">
+															</a>
+														</li>
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1554930694,3081007756&fm=80" alt="">
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="from">
+													<span class="src-net">
+														<a href="#">搜狐新闻</a>
+													</span>
+													<span class="src-time">01-25 17:28</span>
+												</div>
+												<div class="del"></div>
+											</div>
+											<div class="news-item news-item-tpl2">
+												<div class="n-text-con">
+													<h2>
+														<span class="nhot-icon"></span>
+														<a href="#">
+															 新春内地访港旅行团跌七成 系10多年来最大跌幅
+														</a> 
+													</h2>
+												</div>
+												<div class="n-recom-pic">
+													<ul class="n-recom-imgs">
+														<li class="item-img">
+															<a href="#">
+																<img src="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1067927913,1935884051&fm=80" alt="">
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="from">
+													<span class="src-net">
+														<a href="#">搜狐新闻</a>
+													</span>
+													<span class="src-time">01-25 17:28</span>
+												</div>
+												<div class="del"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- c-more -->
+					<div class="c-more-bar">
+						<div class="load-text">滚动查看更多</div>
+						<div class="rect" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/mancard/img/more_white_7e7e7f63.png">
+							<div class="animate-arrow"></div>
+						</div>
+					</div>
+					<!--return top -->
+					<div class="top-feed">
+						<div class="to-top">
+							<div class="icon-mask">
+								<div class="text">回到顶部</div>
+							</div>
+							<span class="top-icon"></span>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="c-bg"></div> -->
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/com.js"></script>
+	<script>
+
+		$(window).scroll(function(){
+	        var h=$(document).height(); 
+	        console.log('h'+h);
+	        var yheight=$(document).scrollTop(); 
+	        console.log('yheight:'+yheight);
+	        if(h-yheight<1200){
+	            $('.pravltModel').css('bottom','360px');
+	        }
+	    })
+	</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+Node.js开发框架Express4.x  http://blog.fens.me/nodejs-express4/
+
+
+Nodejs中文教程：http://www.runoob.com/nodejs/nodejs-tutorial.html
+Nodejs中文社区资料: https://cnodejs.org/getstart
+Nodejs官方文档(英文)：http://nodejs.cn/doc/node/documentation.html
+极客官网资料：http://www.jikexueyuan.com/course/nodejs/
+从零开始nodejs系列文章:http://blog.fens.me/series-nodejs/
+mysql数据库教程：http://www.runoob.com/mysql/mysql-tutorial.html
+Sql语法教程：http://www.w3cschool.cn/index-33.html
+
+
+
+启动页面 npm start
+
+退出nodejs终端命令行，ctrl+D一次 或  ctrl+C两次 或输入“ .exit” 即可
+
+express命令的使用，查看版本信息。输入express -V
+
+https://www.npmjs.com/package/package
+基于nodejs 连接数据库 框架
+
+（1）ORM
+在当前的文件夹下面 进行 如下操作(save-dev是可以将其保存在package.json里面)
+
+npm install orm --save-dev
+
+npm install mysql --save-dev
+
+
+（2）mysql-activerecord
+
+
+作业中碰到的问题以及解决
+1.orm +express 增删改查的 方法
+
+1.html 字符转义 
+ php 方法 htmlspecialchars、addslashes
+js 百度
+以及 在 https://www.npmjs.com/package/package 中查看xss相关

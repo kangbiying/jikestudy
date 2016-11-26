@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css3翻转一个图片的正反面</title>
+</head>
+<style>
+	.flip-con{
+		perspective:1000;
+	}
+	.flip-con:hover .flipper{
+		transform:rotateY(180deg);
+	}
+	.flipper{
+		transition: 0.6s;
+	   transform-style: preserve-3d;
+	   position: relative;
+	}
+	.flip-con,.front,.back{
+		width: 320px;
+		height: 320px;
+		border:1px solid;
+		text-align: center;
+		line-height: 320px;
+		color: #fff;
+	}
+	.front{
+		background:orange;
+		z-index: 12;
+	}
+	.back{
+		background: green;
+		transform:rotateY(180deg);
+		
+	}
+	.front,.back{
+		backface-visibility: hidden;
+		position: absolute;
+		left:0;
+		top:0;
+	}
+</style>
+<body>
+	<div class="flip-con">
+		<div class="flipper">
+			<div class="front">
+				正面内容
+			</div>
+			<div class="back">
+				背面内容
+			</div>
+		</div>
+	</div>
+</body>
+</html>

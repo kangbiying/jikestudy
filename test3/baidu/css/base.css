@@ -1,0 +1,242 @@
+*{margin:0;padding:0;}
+body{font-size:12px;font-family:arial,"微软雅黑";-webkit-text-size-adjust:none;line-height:1.62;}
+body,html{width:100%;height:100%; overflow: hidden;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+ul,ol,li{list-style:none;}
+img{border:none;}
+input,img{vertical-align:middle;}
+a{color:#000;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+a:active{color:#333;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+
+/*index*/
+.fw {
+	font-weight: bold;
+}
+.wrapper {
+    height: 100%;
+    min-height: 600px;
+    min-width: 700px;
+    position: relative;
+}
+.header {
+	float: right;
+    height: 50px;
+    padding-top: 20px;
+}
+.hd-left {
+	float: right;
+}
+.hd-left>li {
+	float: left;
+    position: relative;
+}
+.hd-left>li>a {
+	padding: 11px;
+	text-decoration: underline;
+	font-size: 13px;
+}
+.hd-left>li a:hover {
+	color: #00c;
+}
+.hd-left>li:hover .brief{
+    display: block;
+}
+.ang{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+.brief{
+    position: absolute;
+    left: -12px;
+    top: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px #d1d1d1;
+    -webkit-box-shadow: 1px 1px 5px #d1d1d1;
+    -ms-box-shadow: 1px 1px 5px #d1d1d1;
+    -moz-box-shadow: 1px 1px 5px #d1d1d1;
+    -o-box-shadow: 1px 1px 5px #d1d1d1;
+    text-align: center;
+    display: none;
+}
+.arr{
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -5px;
+}
+.arr em,.arr span{
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    border: 5px solid transparent;
+    border-style: dashed dashed solid dashed;
+}
+.arr em{
+    border-bottom-color: #d8d8d8;
+    top: -1px;
+}
+.arr span{
+    border-bottom-color: #fff;
+    top: 0px;
+}
+.hd-left .brief>a{
+    display: block;
+    width: 60px;
+    padding: 2px 5px;
+    font-size: 13px;
+}
+.hd-left .brief>a:hover{
+    background-color: #3385ff;
+    color: #fff;
+}
+.hd-left li a.more{
+    text-decoration: none;
+    color: #fff;
+    background-color: #38f;
+    padding: 5px;
+    margin: 0 14px;
+}
+.hd-left>li a.more:hover .hd-right{
+    display: block;
+}
+.hd-right {
+	text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 85px;
+    height: 100%;
+   background-color: #f9f9f9;
+   border-left: 1px solid #e7e7e7;
+   z-index: 99;
+   display: none;
+}
+.hd-r-main li{
+    width: 80%;
+    font-size: 13px;
+    margin: 0 auto;
+    padding: 20px 0 10px;
+    border-bottom: #f0f0f0 1px solid;
+}
+.hd-r-main a{
+    color: #333;
+}
+/*百度一下主要部分*/
+.content {
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    width: 100%;
+}
+.bd-pic {
+    width: 260px;
+}
+.bd-con {
+    margin-top: 20px;
+    height: 50px;
+}
+.bd-con input {
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+}
+.content .bd-mess {
+    width: 530px;
+    padding-left: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.bd-mess:hover{
+    border: 1px solid #999;
+}
+.bd-mess:focus
+{ 
+    border-color:#4791ff;
+}
+.content .bd-btn {
+    width: 100px;
+    color: #fff;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    border: none;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -4px;
+    cursor: pointer;
+}
+.bd-btn:hover{
+    background-color:#317ef3;
+    border-bottom:1px solid #2868c8;
+}
+/*底部连接以及版权等*/
+.footer {
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+}
+.ft-con {
+    margin: 0 auto;
+    width: 650px;
+    overflow: hidden;
+}
+.ft-left {
+    width: 48%;
+    float: left;
+}
+.ft-left li {
+    overflow: hidden;    
+    float: left;
+    margin-right: 30px;
+}
+.ft-left li img {
+    float: left;
+    display: inline-block;
+}
+.ft-left li .vbd {
+    float: left;
+    padding: 10px 0 0 10px;
+}
+.vbd b {
+    color: #4c4c4c;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 13px;
+}
+.vbd span {
+    color: #999;
+    letter-spacing: 1px;
+}
+.ft-right {
+    float: left;
+    width: 52%;
+    margin-top: 10px;
+}
+.ft-right .ft-link {
+    text-decoration: underline;
+    margin-right: 20px;
+    color: #272727;
+}
+.ft-right p {
+    color: #666;
+    margin-top: 2px;
+}
+.ft-right p a {
+    color: #666;
+    text-decoration: underline;
+}
+.ft-right p .ft-icon {
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    background: url(../img/icons_8b5b2ea9.png) no-repeat;
+    background-position: -600px -96px;
+    position: relative;
+    top: 3px;
+}

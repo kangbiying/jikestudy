@@ -1,0 +1,114 @@
+*{margin:0;padding:0;}
+body{font-size:12px;font-family:arial,"微软雅黑";-webkit-text-size-adjust:none;line-height:1.62;
+background: url(../img/beijing.gif) repeat;background-size: 100% 100%;}
+body,html{width:100%;height:auto; overflow-y: auto;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+ul,ol,li{list-style:none;}
+em{font-style:normal}
+img{border:none;}
+input,img{vertical-align:middle;}
+q:before, q:after { content:'' }
+.fn-clear:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.fn-clear{*zoom:1;}
+a{color:#000;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+a:active{color:#333;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+section,aside,header,footer,hgroup,article{display:block}
+
+/*index*/
+.wrap{
+width: 710px;
+margin: 10px auto;
+background-color: #fff;
+border-radius: 25px;
+}
+header{
+position: relative;
+}
+.logo{
+margin:10px;
+}
+.hd-right{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+.hd-right a{
+	padding-left: 10px;
+	font-size: 14px;
+	color: rgb(255, 0, 153);
+}
+table{
+	width: 90%;
+	margin:0 auto;
+	/*height: 500px;*/
+	border: 1px solid #ccc;
+	border-collapse:collapse;
+}
+table span{
+	color: red;
+}
+caption{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+thead th{
+	font-weight: normal;
+	padding: 5px;
+	background: url(../img/beijin1.gif) repeat;
+}
+tbody tr .title{
+	font-size: 13px;
+	line-height: 24px;
+    height: 24px;
+    border:1px solid #ccc;
+    font-weight: bold;
+    padding-left: 10px;
+    color: rgb(0, 51, 153);
+    background-color: rgb(238, 238, 238);
+}
+tbody tr .mess-left{
+	width: 138px;
+	text-align: right;
+}
+tbody tr td{
+	border: 1px solid #ccc;
+}
+input[type="text"],input[type="email"]{
+	width: 245px;
+	margin:2px;	
+	height: 22px;
+	line-height: 22px;   
+}
+.blue{
+	 color: #0000ff;
+}
+select,textarea{
+	margin:2px;
+}
+.red{
+	color: rgb(255, 0, 0);
+}
+table.ch-table{
+	width: auto;
+	margin-left: 5px;
+}
+table.ch-table,table.ch-table td{
+	border: 0;
+}
+table.ch-table tr{
+	line-height: 22px;
+}
+input[type="checkbox"]{
+	margin-left: 10px;
+}
+input[type="submit"]{
+	padding:5px 15px;
+	margin: 20px 0;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}

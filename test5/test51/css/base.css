@@ -1,0 +1,25 @@
+.message{
+    margin: 8% auto;
+    width: 300px;
+    font-size: 18px;
+}
+#score{
+	line-height: 30px;
+    height: 30px;
+    font-size: 16px;
+}
+.message p{
+	height: 30px;
+}
+.message a{
+	display: block;
+    width: 100px;
+    margin: 0 auto;
+    border: 1px solid;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 60px;
+}

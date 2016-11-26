@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>简易计算器</title>
+	<link rel="stylesheet" href="css/base.css">
+</head>
+<!--[if(gte IE 6)&(lte IE 8)]>
+	<script type="text/javascript" src="js/selectivizr.min.js"></script>
+<![endif]-->
+<body>
+	<div class="wrap">
+		<p>javascript简易计算器</p>
+		<input type="text" id="mess" value="0" readonly />
+		<ul>
+			<li value="7" id="num7">7</li>
+			<li value="8" id="num8">8</li>
+			<li value="9" id="num9">9</li>
+			<li value="C" class="mr clear" id="clear">C</li>
+			<li value="4" id="num4">4</li>
+			<li value="5" id="num5">5</li>
+			<li value="6"  id="num6">6</li>
+			<li value="+" id="cal0" class="mr sign">+</li>
+			<li value="1" id="num1">1</li>
+			<li value="2" id="num2">2</li>
+			<li value="3" id="num3">3</li>
+			<li value="-" id="cal1" class="mr sign">-</li>
+			<li value="0" id="num0">0</li>
+			<li value="-/+" onclick="neg()" class="neg">-/+</li>
+			<li value="*" id="cal2" class="sign">>*</li>
+			<li value="÷" id="cal3" class="mr sign">÷</li>
+			<li value="1/x" onclick="recip()" class="recip">1/x</li>
+			<li value="%" onclick="percent()" class="percent">%</li>
+			<li value="×²" onclick="square()" class="squ">×²</li>
+			<li value="√" onclick="sqrt()" class="mr sqr">√</li>
+			<li value="." onclick="setdot(this)" class="dot" id="point">.</li>
+			<li value="=" class="equal" id="count">=</li>
+		</ul>
+	</div>
+	<script src="js/comm.js"></script>
+</body>
+</html>

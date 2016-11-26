@@ -1,0 +1,134 @@
+/* CSS Document */
+body ,ul,dl,dl dt,dl dd,input{
+	margin:0; padding:0; 
+	list-style:none;
+			
+}
+img{
+	border:none;	
+}
+.bg-color{
+	background:#A8D696;	
+	width:580px;
+	height:400px;
+	padding-top: 30px;
+}
+#calculator{
+	width:284px;
+	height:352px;
+	margin: 0 auto;	
+	background-color:#F2F2F2;
+}
+.cal-head{
+	margin-left: -1px;
+}
+.hd-hd{
+	height: 28px;
+	background: url(../images/caculator.png);
+	background-position: -27px -8px;
+}
+.hd-input{
+	height: 70px;
+	margin-top: 4px;
+	background: url(../images/caculator.png);
+	background-position: -27px -57px;
+}
+.dis-frame{
+	height: 50px;
+	border: none;
+	width: 254px;
+	margin-left: 16px;
+	background-color: black;
+	border-radius: 5px;
+	color:white;
+	font-size: 22px;	
+}
+.cal-content{
+	height: 248px;
+	width: 265px;
+	word-spacing: -9px;
+	margin: 0 auto;
+	line-height: 12px;
+	margin-right: 4px;
+}
+li{
+	border:1px solid #CDCDCD;
+	height: 29px;
+	width: 53px;
+	float: left;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-bottom: 9px;
+}
+.pic{
+	background:url(../images/caculator2.png) no-repeat;	
+}
+.fmc{
+	background-position: -10px -32px;
+}
+.fmj{
+	background-position: -204px -32px;
+}
+.fm-{
+	background-position: -72px -32px;
+}
+.fmr{
+	background-position: -134px -32px;
+}
+.fc{
+	background-position: -10px -85px;
+}
+.fjj{
+	background-position: -72px -85px;
+}
+.fxx{
+	background-position: -134px -85px;
+}
+.fxh{
+	background-position: -204px -85px;
+}
+.num7{
+	background-position: -10px -136px;
+}
+.num8{
+	background-position: -76px -136px;
+}
+.num9{
+	background-position: -134px -136px;
+}
+.num4{
+	background-position: -10px -183px;
+}
+.num5{
+	background-position: -76px -183px;
+}
+.num6{
+	background-position: -134px -183px;
+}
+.num1{
+	background-position: -10px -221px;
+}
+.num2{
+	background-position: -76px -221px;
+}
+.num3{
+	background-position: -134px -221px;
+}
+.num0{
+	background-position: -10px -263px;
+	width: 119px;
+}
+.f-{
+	background-position: -204px -136px;
+}
+.fj{
+	background-position: -204px -183px;
+}
+.fdh{
+	height: 70px;
+	margin-top: -40px;
+	background-position: -204px -223px;
+}
+.fdd{
+	background-position: -134px -263px;
+}

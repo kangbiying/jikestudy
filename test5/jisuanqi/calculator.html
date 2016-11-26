@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>calculator</title>
+<link rel="stylesheet" href="css/css.css"/>
+
+</head>
+
+<body>
+	<!------------------外框和颜色---------------------->
+    <div class="bg-color">
+    	<!-------------- 计算器-------------------->
+        <div id="calculator">
+        	<!--------计算器头部及显示框------------->
+        	<div class="cal-head">
+            	<!------最上面的图标------>
+                <div class="hd-hd"></div>
+                <!------输出的显示框------->
+                <div class="hd-input">
+                	<input type="text" id="result" name="dis-frame" class="dis-frame" value="0" readonly="readonly"/>
+                </div>
+            </div>
+            <!--------计算器按键部分---------------->
+            <div class="cal-content">
+            	<ul>
+                	<li class="pic fmc"></li>
+                    <li class="pic fmj"></li>
+                    <li class="pic fm-"></li>
+                    <li class="pic fmr"></li>
+                    <li class="pic fc"  onclick="sclear()"></li>
+                    <li class="pic fjj" onclick="minus()"></li>
+                    <li class="pic fxx" onclick="setFh('/')"></li>
+                    <li class="pic fxh"  onclick="setFh('*')"></li>
+                    <li class="pic num7" onclick="setNum(7)"></li>
+                    <li class="pic num8" onclick="setNum(8)"></li>
+                    <li class="pic num9" onclick="setNum(9)"></li>
+                    <li class="pic f-"  onclick="setFh('-')"></li>
+                    <li class="pic num4" onclick="setNum(4)"></li>
+                    <li class="pic num5" onclick="setNum(5)"></li>
+                    <li class="pic num6" onclick="setNum(6)"></li>
+                    <li class="pic fj"  onclick="setFh('+')"></li>
+                    <li class="pic num1" onclick="setNum(1)"></li>
+                    <li class="pic num2" onclick="setNum(2)"></li>
+                    <li class="pic num3" onclick="setNum(3)"></li>
+                    <li class="pic num0" onclick="setNum(0)"></li>
+                    <li class="pic fdd"  onclick="checkdot('.')"></li>
+                    <li class="pic fdh"  onclick="calculate('=')"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<script src="js/js.js"></script>
+</body>
+</html>

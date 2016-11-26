@@ -1,0 +1,34 @@
+前端知识结构图及前端总汇：https://github.com/JacksonTian/fks
+掌握JavaScript常用设计模式
+
+一、javascript 高级函数
+1.惰性函数
+2.函数柯里化
+3.级联函数/链式调用
+二、javascript设计模式
+根本原因是为了代码复用，增加可维护性，有如下原则：
+(1).【开闭原则】对扩展开放，对修改关闭
+(2).【里氏转换原则】子类继承父类，单独掉
+(3).【依赖倒转原则】
+(4).【接口隔离原则】每一个接口应该是一种角色
+(5).【合成/聚合复用原则】新的对象应使用一些已有的对象，使之成为新对象的一部分
+(6).【迪米特原则】一个对象应对其他对象有尽可能少的了解
+
+
+设计模式参考网址
+1.http://www.cnblogs.com/Darren_code/archive/2011/08/31/JavascripDesignPatterns.html
+2.汤姆大叔的博客
+http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html 
+
+
+作业参考
+1.基于gulp基础的 百度 
+用设计模式改善百度js代码
+基于fis3 的百度运行
+fis3 server start  预览调试
+fis3 release  编译发布
+fis3 server stop 关闭
+fis3 server open 打开目录
+
+2.百度 web前端开发工程师/高级前端开发工程师面试题
+html 页面、 思维脑图

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+  <!-- 顶部导航 -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Project name</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+            admin
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">个人信息</a></li>
+              <li><a href="#">账号设置</a></li>
+              <li><a href="#">退出</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            修改主题
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">default</a></li>
+              <li><a href="#">slate</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">搜索</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- 主体 -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-- 左边栏 -->
+      <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="">
+              <a href="http://localhost:3000/home">
+                  <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                  <span>发布新闻</span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="http://localhost:3000/htManage">
+                  <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                  <span>新闻管理</span>
+              </a>
+            </li>
+          </ul>
+      </div>
+      <!-- 中间 -->
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="newsadd-con">
+          <div class="page-body">
+            <div class="page-type">
+              <a href="#" class="cur" data-id="0">
+                推荐
+              </a>
+              <a href="#" data-id="1">
+                百家
+              </a>
+              <a href="#" data-id="2">
+                本地
+              </a>
+            </div>
+            <table class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>
+                            编号
+                        </th>
+                        <th>
+                            标题
+                        </th>
+                        <th>
+                            图片
+                        </th>
+                        <th>
+                            内容
+                        </th>
+                        <th>
+                            操作
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td class="numid">
+                            3
+                        </td>
+                        <td>
+                            我是标题
+                        </td>
+                        <td>
+                            <img src="http://img2.imgtn.bdimg.com/it/u=460344,2433419318&fm=21&gp=0.jpg" alt="">
+                        </td>
+                        <td>
+                            我是内容我是内容我是内容我是内容
+                        </td>
+                        <td>
+                            <a href="#" class="btn btn-primary btn-xs edit-btn">编辑</a>
+                            <a href="#" class="btn btn-primary btn-xs delt-btn">删除</a>
+                        </td>
+                    </tr> -->
+                </tbody>
+            </table>
+          </div>
+          <!-- 编辑表单 -->
+          <div class="m-edit-box">
+            <h1 class="page-header">修改新闻</h1>
+            <!-- 表单 -->
+            <form class="news-form" >
+                <div class="form-group">
+                  <label for="newstitle" class="col-sm-3 text-left no-padding-right">新闻类型</label>
+                  <div class="col-sm-9">
+                    <div class="add-type page-type" style="background:transparent;">
+                      <a href="#" class="cur" data-id="0">
+                        推荐
+                      </a>
+                      <a href="#" data-id="1">
+                        百家
+                      </a>
+                      <a href="#" data-id="2">
+                        本地
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="newsid" class="col-sm-3 text-left no-padding-right">新闻编号</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control " id="newsid" name="newsid" readonly="">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="newstitle" class="col-sm-3 text-left no-padding-right">新闻标题</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control " id="newstitle" name="newstitle">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="newsimg" class="col-sm-3 text-left no-padding-right">图片地址</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control margin-top-5" id="newsimg" name="newsimg">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="newscontent" class="col-sm-3 text-left no-padding-right">新闻内容</label>
+                  <div class="col-sm-9">
+                    <textarea name="newscontent"  class="form-control " id="newscontent" cols="30" rows="5"></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="aui-col-sm-12 text-center">
+                   <!--  <input type="submit" class="btn btn-primary margin-right-30 submit-btn" value="提交"/> -->
+                    <a href="javascript:;" class="btn btn-primary margin-right-30 modify-btn">提交</a>
+                  </div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/manage.js"></script>
+</body>
+</html>

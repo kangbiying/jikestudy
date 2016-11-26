@@ -1,0 +1,43 @@
+
+
+Yoman使用教程: http://yeoman.io/learning/index.html 
+FIS:  http://fex.baidu.com/fis-site/index.html
+FIS快速入门: http://fex.baidu.com/fis-site/docs/beginning/getting-started.html#optimize
+
+
+Grunt 的安装
+
+安装	CLI                 npm install -g grunt-cli
+	如果未翻墙 安装cnpm 
+
+新建文件夹目录下  npm init 写入package.json
+		然后 npm install grunt --save-dev
+
+
+FIS
+fis server start 命令启动FIS的本地调试服务器功能对构建发布的项目进行预览调试
+fis release： 编译并发布你的项目
+命令执行后内置服务器会一直运行，可以通过 fis server stop 命令关闭内置服务器。
+
+FIS默认的产出目构录可以通过 fis server open 打开
+
+资源压缩  fis release --optimize
+添加文件版本（md5戳） fis release --optimize --md5 
+
+资源合并
+fis release --optimize --md5 --pack
+再次运行FIS构建项目
+fis release -omp
+
+html 压缩 https://github.com/babyzone2004/fis-optimizer-htmlmin
+
+最新版本的作业需要安装插件 ，参考fis3官网
+http://fis.baidu.com/fis3/docs/beginning/intro.html
+
+
+fis3  使用fis3命令
+fis-optimizer-htmlmin （html压缩）
+npm install -g fis3-postpackager-loader （简单合并）
+
+将所有的操作直接写入fis-conf.js然后使用cmd 命令发布即可看到效果 
+

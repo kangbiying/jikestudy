@@ -1,0 +1,8 @@
+/*red*/
+.menus li a.active{    background: #F14949;
+    color: #fff;}
+.menus li a:hover, .toptab a:hover{color: #F14949;}
+.menus-wrap{border-top: 2px solid #F14949;}
+.top-navigate ul li a{color:#F14949}        
+.gus-tit:hover, .cs-item a.cs-itname:hover{color:#F14949}
+.gus-tit, .cs-item a.cs-itname{color:#F14949};
