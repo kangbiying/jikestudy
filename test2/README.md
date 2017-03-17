@@ -22,3 +22,7 @@ http://www.easyicon.net/ 可在此寻找对应的图片<br/>
 2.弹性盒子水平分栏，垂直分栏，排序(flex)，cloumn分栏<br/>
 3.旧版弹性盒子居中布局<br/>
 4.美观程度<br/>
+
+### 参考资料
+HTML5教程：http://www.w3school.com.cn/html5/index.asp<br/>
+CSS3参考教程：http://www.w3school.com.cn/css3/index.asp<br/>
