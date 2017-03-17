@@ -13,9 +13,9 @@
 ## 参考资料
 1、[SublimeText及其插件安装](http://jiuye.jikexueyuan.com/topic/483)<br>
 2、三个手册（收藏好，常去查）：<br>
-W3Cschool：[http://www.w3cschool.cn](http://www.w3cschool.cn)（或[ http://www.runoob.com/html/html-tutorial.html](http://www.runoob.com/html/html-tutorial.html)）<br>
-CSS3参考手册1：[http://www.css88.com/book/css/](http://www.css88.com/book/css/)<br>
-CSS3参考手册2：[http://phpstudy.net/css3/](http://phpstudy.net/css3/)<br>
+  W3Cschool：[http://www.w3cschool.cn](http://www.w3cschool.cn)（或[ http://www.runoob.com/html/html-tutorial.html](http://www.runoob.com/html/html-tutorial.html)）<br>
+  CSS3参考手册1：[http://www.css88.com/book/css/](http://www.css88.com/book/css/)<br>
+  CSS3参考手册2：[http://phpstudy.net/css3/](http://phpstudy.net/css3/)<br>
 3、大前端必备网址大全：[http://jiuye.jikexueyuan.com/topic/440](http://jiuye.jikexueyuan.com/topic/440)<br>
 4、视屏中提到的官网职业路径已经改版更新为：[http://ke.jikexueyuan.com/zhiye/web/](http://ke.jikexueyuan.com/zhiye/web/)<br>
 
