@@ -11,7 +11,7 @@ CSS Hack技能是衡量一个前端工程师经验和技能功底的重要知识
 2. 浏览器兼容性处理（兼容Webkit内核的Chrome、Moz内核的Firefox和IE 8、9以上即可，实现了IE6、7等其它为加分项）;<br/>
 ### 4.理解并完成双飞翼布局 [my demo](https://kangbiying.github.io/jikestudy/test3/shuangfeiyi/)
 理解并完成双飞翼布局(CSS浮动、定位、布局、自适应等)<br/>
-### 参考资料
-浏览器市场份额统计：http://tongji.baidu.com/data/browser
-CSS Hack大全：www.duitang.com/static/csshack.html
-CSS Hack方式总结：http://blog.csdn.net/freshlover/article/details/12132801
+### 参考资料<br/>
+浏览器市场份额统计：http://tongji.baidu.com/data/browser<br/>
+CSS Hack大全：www.duitang.com/static/csshack.html<br/>
+CSS Hack方式总结：http://blog.csdn.net/freshlover/article/details/12132801<br/>
