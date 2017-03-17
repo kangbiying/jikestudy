@@ -13,7 +13,7 @@
 可以做成HTML界面的形式，也可以在浏览器console打印出来<br/>
 
 ### 参考资料
-1、Javascript系统教程1：http://www.w3school.com.cn/js/（经常多查阅）
-2、Javascript系统教程2：http://www.runoob.com/js/js-tutorial.html
-3、Javascript参考手册：http://www.w3school.com.cn/jsref/
-4、参考书籍《JavaScript权威指南》：https://book.douban.com/subject/10549733/
+1、Javascript系统教程1：http://www.w3school.com.cn/js/（经常多查阅）<br/>
+2、Javascript系统教程2：http://www.runoob.com/js/js-tutorial.html<br/>
+3、Javascript参考手册：http://www.w3school.com.cn/jsref/<br/>
+4、参考书籍《JavaScript权威指南》：https://book.douban.com/subject/10549733/<br/>
