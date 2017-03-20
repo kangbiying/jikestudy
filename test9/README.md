@@ -5,7 +5,7 @@
 1.安装Express或者rest框架或者Nodejs<br>
 2.利用Ajax配合请求。<br>
 
-###参考资料<br>
+### 参考资料<br>
 移动端开发总结：http://www.alloyteam.com/2015/06/yi-dong-web-wen-ti-xiao-jie/<br>
 Nodejs中文教程：http://www.runoob.com/nodejs/nodejs-tutorial.html<br>
 Nodejs中文社区资料: https://cnodejs.org/getstart<br>
@@ -19,7 +19,7 @@ http://www.runoob.com/nodejs/nodejs-express-framework.html<br>
 Nodejs与mysql实现增删改查示例1：http://www.cnblogs.com/tinyphp/p/4931336.html<br>
 Nodejs与mysql实现增删改查示例2：http://blog.csdn.net/gebitan505/article/details/46346917<br>
 
-###个人总结<br>
+### 个人总结<br>
 Node.js开发框架Express4.x  http://blog.fens.me/nodejs-express4/<br>
 1.ajax和php的作业结束后来做nodejs作业，感觉整个思路都顺畅了。这关中主要学习了nodejs 中express+orm+mysql的用法，
 总体而言还是要看懂文档再使用。顺便还收获了js的html转义方法。<br>
